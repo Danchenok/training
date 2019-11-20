@@ -1,36 +1,79 @@
 .img-fluid {
-    display: block;
-    margin: auto;
-    padding: 30px 20px 20px 20px;
- }
-
-h1{
-    padding: 100px 20px 10px 20px;
-    font-size: 33px; 
+  display: block;
+  margin: auto;
+  padding: 30px 20px 20px 20px;
 }
 
-h2{
-    font-size: 25px;  
+h1 {
+  padding: 100px 20px 10px 20px;
+  font-size: 33px;
 }
 
-.hr {
-    width: 65px;
-    height: 2px;
-    background-color: tomato;
+h2 {
+  font-size: 25px;
+}
+
+.hr-tomato {
+  width: 60px;
+  height: 2px;
+  background-color: tomato;
+}
+
+.hr-white {
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 25px;
 }
 
 .text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
-    font-stretch: semi-expanded;
-    font-weight: 500; 
-    color:  gray;
-    text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  font-stretch: semi-expanded;
+  font-weight: 500;
+  color: gray;
+  text-align: center;
 }
 
 .row {
-    padding: 15px 15px 15px 15px;
-    text-align: center;
-   
+  padding: 15px 15px 15px 15px;
+  text-align: center;
 }
 
+.btn-light {
+  border-radius: 35px;
+  font-size: 1.2rem;
+  font-family: monospace;
+  font-weight: bold;
+
+  border-color: lightsalmon;
+  padding: 20px 32px 20px 32px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.white {
+  color: white;
+  font-stretch: expanded;
+}
+
+.container {
+  padding-bottom: 7%;
+}
+
+.col-12 {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+#tomato {
+  background-color: tomato;
+  padding-bottom: 10%;
+}
+
+#milk {
+  color: #ccbfa2;
+}
